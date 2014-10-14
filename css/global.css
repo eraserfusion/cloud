@@ -1553,3 +1553,6 @@ body .ui-tooltip {
   opacity: .2;
   filter: Alpha(Opacity=20);
   border-radius: 5px; }
+
+#copy {
+  text-align: center; }
