@@ -35,6 +35,8 @@ h2, h3 {
     margin: 10px;
     float: left; }
   .site-navigation h1 {
+    font-size: 1.9em;
+    margin-left: 10px;
     float: left; }
   .site-navigation img {
     height: auto;
