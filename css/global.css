@@ -20,24 +20,33 @@ h1, h4, h5, h6 {
   font-family: 'Khand', sans-serif; }
 
 h2, h3 {
-  font-color: #00aff2; }
+  font-color: #00AFF2; }
 
 .article-text a {
   text-decoration: underline; }
 
+.logo-title {
+  color: white; }
+  .logo-title h1 {
+    font-size: 1.9em; }
+  .logo-title h2 {
+    font-size: 1em; }
+
 .site-navigation {
-  background-color: #00aff2;
-  height: 70px;
+  background-color: #00AFF2;
+  height: 85px;
   width: 100%;
-  position: fixed;
-  margin-bottom: 70px; }
+  position: fixed; }
   .site-navigation .logo-title {
     margin: 10px;
     float: left; }
-  .site-navigation h1 {
-    font-size: 1.9em;
-    margin-left: 10px;
-    float: left; }
+    .site-navigation .logo-title h1 {
+      margin-left: 10px;
+      float: left; }
+    .site-navigation .logo-title h2 {
+      clear: left;
+      float: left;
+      margin-left: 10px; }
   .site-navigation img {
     height: auto;
     width: 100px;
@@ -45,7 +54,7 @@ h2, h3 {
   .site-navigation ul {
     text-align: right;
     float: right;
-    background-color: #00aff2;
+    background-color: #00AFF2;
     position: fixed;
     right: 0px; }
   .site-navigation li {
@@ -53,7 +62,7 @@ h2, h3 {
     margin: 10px 20px;
     list-style: none;
     line-height: 40px;
-    border-bottom: solid 1px rgba(0, 0, 0, 0); }
+    border-bottom: solid 1px transparent; }
   .site-navigation li:hover {
     border-bottom: solid 1px white;
     background-image: url("/img/cloud.png"); }
@@ -66,7 +75,7 @@ main {
   margin-right: auto; }
 
 .site-width {
-  padding-top: 70px; }
+  padding-top: 95px; }
 
 /*!
  * jQuery UI CSS Framework 1.11.1
@@ -901,7 +910,7 @@ body .ui-tooltip {
 
 .ui-widget-content {
   border: 1px solid #ddd;
-  background: #eeeeee url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+  background: #eee url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
   color: #333; }
 
 .ui-widget-content a {
@@ -938,7 +947,7 @@ body .ui-tooltip {
 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
   border: 1px solid #fbd850;
-  background: white url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+  background: #fff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
   font-weight: bold;
   color: #eb8f00; }
 
@@ -1544,17 +1553,36 @@ body .ui-tooltip {
   border-bottom-right-radius: 4px; }
 
 .ui-widget-overlay {
-  background: #666666 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;
+  background: #666 url("images/ui-bg_diagonals-thick_20_666666_40x40.png") 50% 50% repeat;
   opacity: .5;
   filter: Alpha(Opacity=50); }
 
 .ui-widget-shadow {
   margin: -5px 0 0 -5px;
   padding: 5px;
-  background: black url("images/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;
+  background: #000 url("images/ui-bg_flat_10_000000_40x100.png") 50% 50% repeat-x;
   opacity: .2;
   filter: Alpha(Opacity=20);
   border-radius: 5px; }
 
 #copy {
   text-align: center; }
+
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
+/*JSTYLES STARTS HERE */
