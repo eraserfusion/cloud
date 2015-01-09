@@ -8,20 +8,8 @@
 
   <title>Reps Testing</title>
 
-  <script src="//use.typekit.net/ufc0jqm.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-  <script src="js/build/production.min.js"></script>
-
-
-  <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-50136383-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
+  <!--<script src="//use.typekit.net/ufc0jqm.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>-->
   
   <link rel="stylesheet" href="/css/global.css">
   <link href='http://fonts.googleapis.com/css?family=Khand' rel='stylesheet' type='text/css'>
@@ -49,32 +37,42 @@
       </ul>
   </nav>
 </header>
+<body>
 
   <main>
   <div class="site-width">
     <p>Ok, let's test out some math fields and see if we can achieve the results we are looking for!</p>
 
     <div class="form">
-        <p>What year were you born?<input type="number" name="age" id="">.</p>
-        <p>You are <span class="age"></span> years old</p>
+        <p>What year were you born? <input type="number" name="age" id="">.
+        <span id="age"></span></p>
 
-        <p>What is your name?<input type="text" name="name" id="">.</p>
-        <p>Hi<span class="name"></span>!</p>
-
-        <p>What is your monthly income?<input type="number" name="" id=""></p>
-        <p>Your yearly income is <span class="yearly"></span></p>
-        <p>If you ket that same job for 10 years you would have earned <span class="tenyear"></span></p>
-        <p>With a 5% increase each year for 10 years, you would make <span class="growth"></span></p>
+        <p>What is your monthly income? <input type="number" name="monthly" id=""></p>
+        <p>Your yearly income is <span id="yearly"></span></p>
+        <p>If you keep making that same amount for 10 years you would have earned <span id="tenyear"></span></p>
+        <p>With a 5% increase each year for 10 years, you would make <span id="growth"></span></p>
     </div>
 
   </div>
 </main> 
 
-  <footer>
+  </body>
+<footer>
 	<div id="copy">
 		Copyright 2014 &copy; StevensCloud. All rights reserved.
 	</div>
 </footer>
+
+<script src="/js/build/production.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50136383-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
 </body>
 

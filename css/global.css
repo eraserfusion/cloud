@@ -1586,3 +1586,19 @@ body .ui-tooltip {
 /*JSTYLES STARTS HERE */
 /*JSTYLES STARTS HERE */
 /*JSTYLES STARTS HERE */
+.form {
+  margin-bottom: 100px; }
+  .form p {
+    line-height: 30px;
+    font-size: 20px; }
+  .form span {
+    background-color: #F3F315; }
+  .form input {
+    width: 75px;
+    margin-left: 5px; }
+  .form input::-webkit-outer-spin-button,
+  .form input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */ }
